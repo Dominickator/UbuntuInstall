@@ -1,5 +1,5 @@
 sudo snap install code
-sudo ubuntu-drivers install
+sudo ubuntu-drivers autoinstall
 sudo apt update && sudo apt dist-upgrade
 sudo apt install git -y
 sudo apt install tlp -y
