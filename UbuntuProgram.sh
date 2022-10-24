@@ -1,5 +1,6 @@
 sudo snap install code --classic
 sudo snap install discord
+sudo snap install steam
 sudo ubuntu-drivers autoinstall
 sudo apt update && sudo apt dist-upgrade
 sudo apt install git -y
