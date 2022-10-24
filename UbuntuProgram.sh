@@ -1,4 +1,4 @@
-sudo snap install code
+sudo snap install code --classic
 sudo ubuntu-drivers autoinstall
 sudo apt update && sudo apt dist-upgrade
 sudo apt install git -y
