@@ -1,6 +1,6 @@
 echo "Installing applications..."
+sudo apt-add-repository multiverse && sudo apt-get update
 sudo snap install code --classic
-cd ~/Downloads
 wget -O discord.deb https://discord.com/api/download?platform=linux&format=deb
 sudo apt install ./discord.deb -y
 sudo apt update && sudo apt dist-upgrade
