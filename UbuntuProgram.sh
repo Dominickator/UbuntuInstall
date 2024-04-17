@@ -1,10 +1,8 @@
 echo "Installing applications..."
 sudo apt-add-repository multiverse && sudo apt-get update
 sudo snap install code --classic
-wget -O discord.deb https://discord.com/api/download?platform=linux&format=deb
-sudo apt install ./discord.deb -y
 sudo apt update && sudo apt dist-upgrade
-sudo apt install steam -y
+sudo apt install steam-installer -y
 sudo apt install git -y
 sudo apt install lutris -y
 
@@ -34,4 +32,5 @@ sudo apt install gnome-console -y
 sudo apt update && sudo apt dist-upgrade
 flatpak install flathub com.mattjakeman.ExtensionManager -y
 flatpak install flathub com.microsoft.Edge -y
+flatpak install flathub dev.vencord.Vesktop -y
 sudo reboot
